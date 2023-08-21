@@ -1,0 +1,93 @@
+/*.calc{
+    width: 389px;
+    height: 600px;
+    background: rgb(215, 179, 179);
+    margin-left: 450px;
+}
+
+#screen{
+    width: 83%;
+    margin-left: 30px; 
+    height:100px; 
+    margin-top: 30px; 
+    pointer-events: none;
+    border-radius: 10px;
+}
+
+
+
+.btn{
+    width: 60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 20px;
+    background: bisque;
+    border-radius: 10px;
+    
+}*/
+
+/* Calculator container */
+.calc {
+    width: 330px;
+    height: 520px;
+    /*background: #f0f0f0;*/
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background: hwb(272 82% 11%);
+}
+
+/* Calculator screen */
+#screen {
+    width: 94%;
+    height: 70px;
+    margin-bottom: 15px;
+    font-size: 32px;
+    text-align: right;
+    border: none;
+    outline: none;
+    /*background: #fff;*/
+    border-radius: 10px;
+    padding: 10px;
+    background: #9cd39c;
+}
+
+/* Calculator buttons */
+.btn {
+    width: 70px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    background: #ffcc99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #ffb366;
+}
+
+/* Styling for specific buttons */
+.btn.operator {
+    background: #ff9933;
+    color: white;
+}
+
+.btn.clear {
+    background: #ff6666;
+    color: white;
+}
+
+/* Add more specific button styles as needed */
+
+/* Row container for buttons */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
